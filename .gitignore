@@ -1,0 +1,23 @@
+# Blender automatic backup files
+*.blend1
+*.blend2
+
+# Local python cache
+__pycache__/
+*.pyc
+
+# Render outputs and datasets (Keep your generated images private)
+output/
+renders/
+
+
+# Massive assets (Optional: ignores heavy HDRIs and textures)
+*.exr
+*.hdr
+*.png
+*.jpg
+*.jpeg
+
+# IDE settings
+.vscode/
+.idea/
